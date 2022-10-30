@@ -4,7 +4,7 @@ pipeline{
         stage('continuesDownload'){
             steps
             {
-                git 'https://github.com/intelliqittrainings/maven.git'
+                git 'https://github.com/sunita1988/maven.git'
             }
         }
         stage('continuesBuilt'){
